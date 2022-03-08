@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------TYPE SELECTORS---------*/
+section{
+    border: 1px solid #000;
+    margin-top: 20px;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    margin-top: 10px;
+}
+
+/* --------CLASS SELECTOR-----*/
+.main{
+    margin-left: 150px;
+}
+.output{
+    border: 1px solid #000;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
